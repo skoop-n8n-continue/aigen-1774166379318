@@ -1,0 +1,52 @@
+/* Data-driven CSS variables are set via JS from data.json */
+/* No default values in :root for variables coming from data.json */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#app-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+    padding: 2rem;
+}
+
+#app-container.loaded {
+    opacity: 1;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.headline {
+    font-size: 6rem;
+    margin: 0;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.subtext {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    line-height: 1.4;
+    opacity: 0.9;
+}
