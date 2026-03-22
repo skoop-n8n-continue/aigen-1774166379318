@@ -6,12 +6,12 @@
       "primary_color": {
         "type": "color",
         "label": "Primary Color",
-        "value": "#ff1744"
+        "value": "#00b7af"
       },
       "background_color": {
         "type": "color",
         "label": "Background Color",
-        "value": "#1a0000"
+        "value": "#10181f"
       },
       "text_color": {
         "type": "color",
@@ -33,7 +33,7 @@
       "logo": {
         "type": "file",
         "label": "Logo",
-        "value": "assets/logo-1774166686397.png",
+        "value": "assets/logo.png",
         "meta": {
           "accepted_formats": ["png", "jpg", "svg"],
           "path": "assets/"
