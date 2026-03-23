@@ -28,7 +28,7 @@
       "subtext": {
         "type": "textarea",
         "label": "Subtext",
-        "value": "Welcome to your new digital signage application. This content is managed via data.json."
+        "value": "Welcome to your new digital signage application."
       },
       "logo": {
         "type": "file",
