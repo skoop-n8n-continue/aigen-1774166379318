@@ -11,7 +11,7 @@
       "background_color": {
         "type": "color",
         "label": "Background Color",
-        "value": "#1a0505"
+        "value": "#06101e"
       },
       "text_color": {
         "type": "color",
