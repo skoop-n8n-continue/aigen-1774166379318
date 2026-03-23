@@ -6,7 +6,7 @@
       "primary_color": {
         "type": "color",
         "label": "Primary Color",
-        "value": "#e63946"
+        "value": "#37e67a"
       },
       "background_color": {
         "type": "color",
@@ -35,7 +35,11 @@
         "label": "Logo",
         "value": "assets/logo.png",
         "meta": {
-          "accepted_formats": ["png", "jpg", "svg"],
+          "accepted_formats": [
+            "png",
+            "jpg",
+            "svg"
+          ],
           "path": "assets/"
         }
       }
