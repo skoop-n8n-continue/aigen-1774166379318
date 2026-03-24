@@ -6,12 +6,12 @@
       "primary_color": {
         "type": "color",
         "label": "Primary Color",
-        "value": "#a937e6"
+        "value": "#00b7af"
       },
       "background_color": {
         "type": "color",
         "label": "Background Color",
-        "value": "#06101e"
+        "value": "#10181f"
       },
       "text_color": {
         "type": "color",
@@ -28,18 +28,14 @@
       "subtext": {
         "type": "textarea",
         "label": "Subtext",
-        "value": "Welcome to your new digital signage application."
+        "value": "Welcome to your new digital signage application. This content is managed via data.json."
       },
       "logo": {
         "type": "file",
         "label": "Logo",
         "value": "assets/logo.png",
         "meta": {
-          "accepted_formats": [
-            "png",
-            "jpg",
-            "svg"
-          ],
+          "accepted_formats": ["png", "jpg", "svg"],
           "path": "assets/"
         }
       }
