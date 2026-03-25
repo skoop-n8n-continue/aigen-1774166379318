@@ -16,7 +16,7 @@
       "text_color": {
         "type": "color",
         "label": "Text Color",
-        "value": "#ffffff"
+        "value": "#9d4d4d"
       }
     },
     "content": {
@@ -35,7 +35,11 @@
         "label": "Logo",
         "value": "assets/logo.png",
         "meta": {
-          "accepted_formats": ["png", "jpg", "svg"],
+          "accepted_formats": [
+            "png",
+            "jpg",
+            "svg"
+          ],
           "path": "assets/"
         }
       }
